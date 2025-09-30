@@ -2,7 +2,7 @@
 
 This repository accompanies Chapter 5 of the thesis: **Attack Detection with XAI**. It presents **X-ZeroSec**, a novel adversarial detection framework that leverages Explainable AI (XAI) to secure 5G and beyond wireless networks against evasion attacks.
 
-The core innovation lies in the introduction of **explanation distillation**—a method that transfers feature attributions from a lightweight adversarial detector to a secondary XAI-based model, enabling robust generalization to unseen (zero-shot) attacks.
+The core innovation lies in the introduction of **explanation distillation**: a method that transfers feature attributions from a lightweight adversarial detector to a secondary XAI-based model, enabling robust generalization to unseen (zero-shot) attacks in beamforming prediction.
 
 ## 📌 Key Contributions
 
@@ -12,15 +12,7 @@ The core innovation lies in the introduction of **explanation distillation**—a
 - 🧠 **Explanation Distillation**: Enhances generalization by transforming input features into explanation space (SHAP values).
 - 📊 **Benchmarking**: Compared against state-of-the-art defences like MagNet, adversarial training (Madry, TRADES), and naive Bayes classifiers.
 - 🧪 **Experimental Validation**: Tested across simulation and a real O-RAN testbed with latency profiling and robustness analysis.
-- 🌐 **Extension to DDoS Detection**: Demonstrated generalizability to SDN-based volumetric DDoS attacks using FFT-transformed traffic patterns.
 
-## 🧰 Components
-
-- `src/`: Code for training beamforming prediction models, adversarial detectors, and explanation distillation classifiers.
-- `notebooks/`: Interactive Jupyter notebooks for attack generation, SHAP visualizations, and evaluation plots.
-- `oran/`: Scripts and configs for OAI/O-RAN testbed deployment and telemetry.
-- `ddos/`: DDoS detection pipeline using FFT + XAI with SDN emulation (Mininet + GNS3).
-- `results/`: Figures and logs for detection accuracy, latency benchmarks, and attack robustness.
 
 ## 🧠 Technologies Used
 
