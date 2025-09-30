@@ -37,8 +37,3 @@ The core innovation lies in the introduction of **explanation distillation**—a
 - 🧪 **Black-box Attack Recall**: >92% (XAI) vs <84% (Direct)
 - ⚡ **End-to-End Latency**: 3.5 ms per prediction (CPU); within URLLC thresholds
 - 🧱 **Scalability**: Achievable rate maintained despite high adversarial load
-
-## 📄 Citation
-
-If you use this code or data in your research, please cite:
-
